@@ -18,7 +18,7 @@ class Serv(BaseHTTPRequestHandler): # class that hold server
             self.path = '/testoutput.html'  # path to index page
         if self.path == '/.md':   #
             self.path = '/test.md'
-            markdown.markdownFromFile(input=self.path[1:], output=self.wfile) # convert .md file to html
+            markdown.markdownFromFile(input=self.path[1:], output=self.wfile) # convert .md file to html?
             self.wfile.write('this the .md file' .encode())
               # path to index page
 
