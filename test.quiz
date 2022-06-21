@@ -1,0 +1,18 @@
+Test Quiz Markdown File
+=======================
+
+This is a "quiz" markdown file, to test translation into the quiz HTML 
+structure.
+
+Module 1: C++ Basics
+--------------------
+
+Problem 1: Write a function `reverse` which reverses a vector in place:
+
+!!!! problem
+void reverse(vector<int>& v)
+{
+    // Your code here
+}
+!!!!
+
